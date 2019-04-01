@@ -29,7 +29,7 @@
                         <th scope="row">{{$user->id}}</th>
                         <td>{{$user->name}}</td>
                         <td>{{$user->email}}</td>
-                        <td><a href="#" class="btn btn-primary">View More</a></td>
+                        <td><a href="/content" class="btn btn-primary">View More</a></td>
                         </tr>
                     @endforeach
   </tbody>
